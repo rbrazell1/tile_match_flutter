@@ -24,7 +24,7 @@ class PuzzleViewModel {
         _moveCountStreamController = StreamController<int>(),
         _matchCountStreamController = StreamController<int>(),
         _tickStreamController = StreamController<int>(),
-        _rng = Random.secure() {}
+        _rng = Random.secure();
 
   Stream<List<Tile>> get tileListStream => _tileListStreamController.stream;
 
